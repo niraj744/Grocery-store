@@ -8,6 +8,8 @@ import SignUpPage from "./Pages/SignUp";
 import Home from "./Pages/Home";
 import { QueryClientProvider, QueryClient } from "@tanstack/react-query";
 import CategoriesPage from "./Pages/CategoriesPage";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const client = new QueryClient();
 
@@ -18,13 +20,14 @@ const router = createBrowserRouter([
       { index: "/", element: <Home /> },
       { path: "/sign-in", element: <SignInPage /> },
       { path: "/sign-up/*", element: <SignUpPage /> },
-      { path: "category/:id", element: <CategoriesPage /> },
+      { path: "/category/:id", element: <CategoriesPage /> },
     ],
   },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <QueryClientProvider client={client}>
+    <ToastContainer />
     <RouterProvider router={router} />
   </QueryClientProvider>
 );

@@ -21,28 +21,28 @@ export default function Crousel() {
         <CarouselContent>
           <CarouselItem>
             <img
-              src="https://res.cloudinary.com/dfyfnvmtr/image/upload/v1721142566/compulsory/1_dqu5zs.jpg"
+              src="https://res.cloudinary.com/dfyfnvmtr/image/upload/f_auto/q_auto:good/v1721142566/compulsory/1_dqu5zs.jpg"
               alt="crousel"
               className="rounded-xl max-w-full object-contain lg:object-cover lg:h-[450px] lg:w-full"
             />
           </CarouselItem>
           <CarouselItem>
             <img
-              src="https://res.cloudinary.com/dfyfnvmtr/image/upload/v1721142565/compulsory/2_xl2ghb.jpg"
+              src="https://res.cloudinary.com/dfyfnvmtr/image/upload/f_auto/q_auto:good/v1721142565/compulsory/2_xl2ghb.jpg"
               alt="crousel"
               className="rounded-xl max-w-full object-contain lg:object-cover lg:h-[450px] lg:w-full"
             />
           </CarouselItem>
           <CarouselItem>
             <img
-              src="https://res.cloudinary.com/dfyfnvmtr/image/upload/v1721142565/compulsory/4_pcwion.jpg"
+              src="https://res.cloudinary.com/dfyfnvmtr/image/upload/f_auto/q_auto:good/v1721142565/compulsory/4_pcwion.jpg"
               alt="crousel"
               className="rounded-xl max-w-full object-contain lg:object-cover lg:h-[450px] lg:w-full"
             />
           </CarouselItem>
           <CarouselItem>
             <img
-              src="https://res.cloudinary.com/dfyfnvmtr/image/upload/v1721142565/compulsory/3_hlexds.jpg"
+              src="https://res.cloudinary.com/dfyfnvmtr/image/upload/f_auto/q_auto:good/v1721142565/compulsory/3_hlexds.jpg"
               alt="crousel"
               className="rounded-xl max-w-full object-contain lg:object-cover lg:h-[450px] lg:w-full"
             />
